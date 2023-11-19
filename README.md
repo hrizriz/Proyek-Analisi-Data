@@ -40,6 +40,9 @@ streamlit run dashboard.py
 ## Tampilan ketika menjalankan Streamlit
 
 **Akan menampilkan:**
-- Rata-rata Penyewaan Sepeda per Harinya [URL](assets/avg.png)
-- Penyewa Sepeda pada Tiap Jamnya [URL](assets/per_hour.png)
-- Total Penyewaan Sepeda per Harinya [URL](assets/per_day.png)
+- Rata-rata Penyewaan Sepeda per Harinya
+  ![Alt Text](assets/avg.png)
+- Penyewa Sepeda pada Tiap Jamnya
+  ![Alt Text](assets/per_hour.png)
+- Total Penyewaan Sepeda per Harinya
+  ![Alt Text](assets/per_day.png)

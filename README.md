@@ -8,3 +8,38 @@
 - Visualization & Explanatory Analysis: Create informative charts and graphs to effectively communicate insights, and perform in-depth analysis to extract deeper understanding from the data.
 - Conclusion: Summarize the key findings of the analysis and draw meaningful conclusions that directly address the business questions.
 - Creating a Simple Dashboard: Utilize Streamlit to construct a straightforward and user-friendly dashboard.
+
+# Proyek Analisis Data
+
+## SETUP environement
+
+Jalankan perintah dibawah ini
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+```
+Install library yang dibutuhkan, seperti:
+
+- `numpy`
+- `jupyter`
+- `matplotlib`
+- `pandas`
+- `seaborn`
+- `streamlit`
+
+Ketikan perintah pada terminal:
+```
+pip install numpy jupyter matplotlib pandas seaborn streamlit
+```
+## Jalankan Streamlit App
+Ketikan
+```
+streamlit run dashboard.py
+```
+
+## Tampilan ketika menjalankan Streamlit
+
+**Akan menampilkan:**
+- Rata-rata Penyewaan Sepeda per Harinya [URL](assets/avg.png)
+- Penyewa Sepeda pada Tiap Jamnya [URL](assets/per_hour.png)
+- Total Penyewaan Sepeda per Harinya [URL](assets/per_day.png)

@@ -9,7 +9,6 @@
 - Conclusion: Summarize the key findings of the analysis and draw meaningful conclusions that directly address the business questions.
 - Creating a Simple Dashboard: Utilize Streamlit to construct a straightforward and user-friendly dashboard.
 
-# Proyek Analisis Data
 
 ## SETUP environement
 

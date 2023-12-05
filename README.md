@@ -13,12 +13,12 @@
 
 ## SETUP environement
 
-Jalankan perintah dibawah ini
-```
+Run the commands below:
+```bash
 conda create --name main-ds python=3.9
 conda activate main-ds
 ```
-Install library yang dibutuhkan, seperti:
+Install the required libraries, such as:
 
 - `numpy`
 - `jupyter`
@@ -27,22 +27,22 @@ Install library yang dibutuhkan, seperti:
 - `seaborn`
 - `streamlit`
 
-Ketikan perintah pada terminal:
-```
+Type the command in the terminal:
+```bash
 pip install numpy jupyter matplotlib pandas seaborn streamlit
 ```
-## Jalankan Streamlit App
+## Run Streamlit App
 Ketikan
 ```
 streamlit run dashboard.py
 ```
 
-## Tampilan ketika menjalankan Streamlit
+## Display when running Streamlit
 
-**Akan menampilkan:**
-- Rata-rata Penyewaan Sepeda per Harinya
+**Will display:**
+- Average Bike Rentals per Day
   ![Alt Text](assets/avg.png)
-- Penyewa Sepeda pada Tiap Jamnya
+- Bike Renters at Each Hour
   ![Alt Text](assets/per_hour.png)
-- Total Penyewaan Sepeda per Harinya
+- Total Bike Rentals per Day
   ![Alt Text](assets/per_day.png)
